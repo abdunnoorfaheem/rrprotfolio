@@ -11,24 +11,24 @@ const Header = () => {
     <>
       <div className="py-4  ">
         <Container>
-            <Flex className={"justify-between"}>
-                <div className="">
-                    <Image imgSrc={Logo}/>
-                </div>
-                <div className="">
-                    <ul className="flex gap-x-10">
-                        <li>HOME</li>
-                        <li>ABOUT US</li>
-                        <li>SERVICES</li>
-                        <li>WORKS</li>
-                    </ul>
-                </div>
-                <div className="">
-                    
-
-                    <Button className={"px-[22px] py-[11px] gap-x-2"}>Hire Me <CiMail /></Button>
-                </div>
-            </Flex>
+          <Flex className={"justify-between"}>
+            <div className="">
+              <Image imgSrc={Logo} />
+            </div>
+            <div className="">
+              <ul className="flex gap-x-10 font-poppins">
+                <li>HOME</li>
+                <li>ABOUT US</li>
+                <li>SERVICES</li>
+                <li>WORKS</li>
+              </ul>
+            </div>
+            <div className="">
+              <Button className={"px-[22px] py-[11px] gap-x-2 font-poppins"}>
+                Hire Me <CiMail  className="text-[20px]"/>
+              </Button>
+            </div>
+          </Flex>
         </Container>
       </div>
     </>
