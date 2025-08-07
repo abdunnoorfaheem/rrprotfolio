@@ -11,7 +11,7 @@ import BannerImg from "/src/assets/banner.png";
 const Banner = () => {
   return (
     <>
-      <div className="py-8">
+      <div className="py-8 bg-[#F9F9FC]">
         <Container>
           <Flex className={"justify-between"}>
             <div className="">
@@ -23,7 +23,7 @@ const Banner = () => {
                 }
               />
               <Heading
-                text={`Hello, my name’sSakib. I’m MERN Stack Developer.`}
+                text={`Hello, my name’s Sakib. I’m MERN Stack Developer.`}
                 tagName={"h1"}
                 className={
                   "text-[#333333] text-[60px] font-bold font-poppins leading-[78px] w-[479px] mt-[50px] mb-[50px]"

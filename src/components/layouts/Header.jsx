@@ -9,7 +9,7 @@ import { CiMail } from "react-icons/ci";
 const Header = () => {
   return (
     <>
-      <div className="py-4  ">
+      <div className="py-4  bg-[#F9F9FC]">
         <Container>
           <Flex className={"justify-between"}>
             <div className="">
