@@ -5,8 +5,6 @@ const Button = ({children,className}) => {
   return (
     <>
     
-      {/* <a href="#" className={`text-[14px] font-medium text-white bg-[#5E3BEE] rounded-[50px] flex items-center gap-x-2 ${className}`}>{btnText}<MdOutlineEmail /></a> */}
-
       <button className={`text-[14px] font-medium text-white bg-[#5E3BEE] rounded-[50px] flex items-center  ${className}`}>
         {children}
       </button>
@@ -14,4 +12,4 @@ const Button = ({children,className}) => {
   )
 }
 
-export default Button
+export default Button;
