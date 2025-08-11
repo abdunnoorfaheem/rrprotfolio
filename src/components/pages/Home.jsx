@@ -5,6 +5,7 @@ import Counter from '../layouts/Counter'
 import Service from '../layouts/Service'
 import Contact from '../layouts/Contact'
 import Pcompany from '../layouts/Pcompany'
+import Portfolio from '../layouts/Portfolio'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Service/>
       <Contact/>
       <Pcompany/>
+      <Portfolio/>
     </>
   )
 }
