@@ -10,7 +10,7 @@ import Portfolio from '../layouts/Portfolio'
 const Home = () => {
   return (
     <>
-      <Header/>
+      
       <Banner/>
       <Counter/>
       <Service/>

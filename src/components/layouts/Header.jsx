@@ -5,6 +5,7 @@ import Logo from "/src/assets/logo.png";
 import Image from "../Image";
 import Button from "../Button";
 import { CiMail } from "react-icons/ci";
+import {Link} from "react-router-dom";
 
 const Header = () => {
   return (
@@ -17,10 +18,10 @@ const Header = () => {
             </div>
             <div className="">
               <ul className="flex gap-x-10 font-poppins">
-                <li>HOME</li>
-                <li>ABOUT US</li>
-                <li>SERVICES</li>
-                <li>WORKS</li>
+                <li><Link to={"/"}>HOME</Link></li>
+                <li><Link to={"/aboutUs"}>ABOUT US</Link></li>
+                <li><Link to={"/service"}>SERVICES</Link></li>
+                <li><Link to={"/works"}>WORKS</Link></li>
               </ul>
             </div>
             <div className="">
